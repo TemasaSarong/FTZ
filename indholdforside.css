@@ -32,3 +32,22 @@ body {
 	    font-size: 25px;
 	    margin-top: 50%;
 }
+
+/*Example found on w3schools - mediaquery_breakpoints*/
+
+/*small devices*/
+@media screen and (max-width: 600px){
+	
+}
+
+/*medium devices*/
+	
+@media screen and (max-width: 768px){
+	
+}
+
+/*Large devices*/
+
+@media screen and (max-width: 992px){
+	
+}
