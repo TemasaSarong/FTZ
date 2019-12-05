@@ -15,5 +15,10 @@ body {
 	
 	    color: #FAF6F5;
 	    font-family: 'raleway';
-	    font-style: bold;	
+	    font-weight: bold;
+	    text-align: center;
+	    line-height: 0.8;
+	    font-size: 25px;
+	    
+	    margin-top: 10%;
 }
