@@ -22,6 +22,17 @@ body {
 	    text-align: left;
 }
 
+.undertekst{
+	
+	    color: #FAF6F5;
+	    font-family: 'raleway';
+	    text-align: center;
+	    line-height: 0.8;
+	    font-size: 25px;
+	    margin-top: 0%;
+	
+}
+
 .logotekst{
 	
 	    color: #FAF6F5;
@@ -31,11 +42,13 @@ body {
 	    line-height: 0.8;
 	    font-size: 25px;
 	    margin-top: 50%;
+	    text-decoration: underline;
 }
 
 .logoimage{
 	
-	    margin-top: 130px;
+	    margin-top: 40%;
+	    margin-left: 30%;
 	
 	
 }
