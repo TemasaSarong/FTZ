@@ -3,9 +3,7 @@
 
 body{
 	
-	background-origin: #FFFFFF;
-	
-	
+	background-origin: #FFFFFF;	
 	
 }
 
@@ -14,4 +12,12 @@ body{
 	background-color: #002F67;
 	width: 200px;
 	height: 100px;	
+}
+
+.main-nav{
+	
+	background-color: #002F67;
+	
+	
+	
 }
