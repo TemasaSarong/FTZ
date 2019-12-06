@@ -6,7 +6,7 @@ html {
 		}
 
 body {
-  		background-image: url("billeder/background.jpg");
+  		
 	    margin: 0;
   		padding: 0;
 }
@@ -19,7 +19,7 @@ body {
 	    margin-left: 40px;
 	    margin-right: 40px;
 	    margin-bottom: 30px;
-	    text-align: left;
+	    text-align: center;
 }
 
 .undertekst{
@@ -47,20 +47,22 @@ body {
 
 .logoimage{
 	
-	    justify-image: center;
+	    justify-content: center;
 	    margin-top: 40%;
-	    margin-left: 40%;
+	    margin-left: 0%;
 	
 	
 }
 
-/*Example found on w3schools - mediaquery_breakpoints*/
+/*Code inspired by w3schools - mediaquery_breakpoints*/
 
 /*small devices*/
-@media screen and (max-width: 600px){
-.body{
-		 width: 50%;
-		 float: left;
+@media screen and (min-width: 600px){
+   body{
+		 background-color: #67CFAC;
+	     width: 50%;
+	   	margin-left: 20%;
+		
 		
 	}
 	    
@@ -68,16 +70,25 @@ body {
 
 /*medium devices*/
 	
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
+	body{
+		
+		background-color: #ff0000;
+		width: 50%;
+		margin-left: 20%;
+		
+	}	
 	
 }
 
 /*Large devices*/
 
-@media screen and (max-width: 992px){
+@media screen and (min-width: 992px){
 .body{
-		 width: auto;
-		 float: none;
+		 background-color: #505050;
+	     width: 50%;
+	     margin-left: 20%;
+		 
 		
 	}
 	
