@@ -6,90 +6,144 @@ html {
 		}
 
 body {
-  		
+  		font-family: 'Raleway', sans-serif;
 	    margin: 0;
   		padding: 0;
+		background-color: #002f67;
 }
 
 .wrapper {
-	   
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: center;
-	    margin-left: 40px;
-	    margin-right: 40px;
-	    margin-bottom: 30px;
-	    text-align: center;
+		align-items: center;
+		text-align: center;
+		margin-top: 30%;
+		margin-bottom: 30%;
 }
 
-.undertekst{
-	
-	    color: #FAF6F5;
-	    font-family: 'raleway';
-	    text-align: center;
-	    line-height: 0.8;
-	    font-size: 25px;
-	    margin-top: 0%;
-	
+.logo {
+		width: 100%;
 }
 
-.logotekst{
-	
-	    color: #FAF6F5;
-	    font-family: 'raleway';
-	    font-weight: bold;
-	    text-align: center;
-	    line-height: 0.8;
-	    font-size: 25px;
-	    margin-top: 30%;
-	    text-decoration: underline;
+.logo img {
+		width: 60%;
+		padding-top: 25%;
+		height: auto;
 }
 
-.logoimage{
-	
-	    justify-content: center;
-	    margin-top: 40%;
-	    margin-left: 0%;
-	
-	
+.pile {
+		width: 100%;
+}
+
+.pile img {
+		width: 20%;
+		padding-top: 30%;
+		height: auto;
 }
 
 /*Code inspired by w3schools - mediaquery_breakpoints*/
 
-/*small devices*/
-@media screen and (min-width: 600px){
-   body{
-		 background-color: #67CFAC;
-	     width: 50%;
-	   	 margin-left: 20%;
-		
-		
+/*smallest devices*/
+@media screen and (min-width: 200px)
+{
+   	body{
+		background-image: linear-gradient(black, #3385e8); }
+	
+	.wrapper {
+		margin-top: 25%;
 	}
-	    
+	
+	.logo img {
+		width: 55%;
+	}
+	
+	.pile img {
+		width: 18%;
+		padding-top: 15%;
+	}
+}
+
+/*small devices - this is our preferable size*/
+@media screen and (min-width: 400px)
+{
+   	body{
+		background-image: linear-gradient(#002f67, #3385e8); }
+	
+	.wrapper {
+		margin-top: 15%;
+	}
+	
+	.logo img {
+		width: 50%;
+	}
+	
+	.pile img {
+		width: 15%;
+	}
 }
 
 /*medium devices*/
-	
-@media screen and (min-width: 768px){
+@media screen and (min-width: 600px)
+{
 	body{
-		
-		background-color: #ff0000;
+		background-image: linear-gradient(red, #3385e8); }	
+	
+	.wrapper {
+		margin-top: 5%;
+	}
+	
+	.logo img {
 		width: 50%;
-		margin-left: 20%;
-		
-	}	
+	}
+	
+	.pile img {
+		width: 13%;
+		padding-top: 10%;
+	}
 	
 }
 
-/*Large devices*/
+/*Large devices - ipad pro*/
 
-@media screen and (min-width: 992px){
-.body{
-		 background-color: #505050;
-	     width: 50%;
-	     margin-left: 20%;
-		 
+@media screen and (min-width: 800px)
+{
+	body{
+		background-image: linear-gradient(yellow, #3385e8);	}
 		
+	.wrapper {
+		margin-top: 10%;
 	}
 	
+	.logo img {
+		width: 50%;
+	}
+	
+	.pile img {
+		width: 12%;
+		padding-top: 10%;
+	}
+
+}
+
+/*X-Large devices - fullscreen*/
+
+@media screen and (min-width: 2000px)
+{
+	body{
+		background-image: linear-gradient(green, #3385e8);	}
+		
+	.wrapper {
+		margin-top: 5%;
+	}
+	
+	.logo img {
+		width: 40%;
+	}
+	
+	.pile img {
+		width: 10%;
+		padding-top: 6%;
+	}
+
 }
