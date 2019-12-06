@@ -47,8 +47,9 @@ body {
 
 .logoimage{
 	
+	    justify-image: center;
 	    margin-top: 40%;
-	    margin-left: 33%;
+	    margin-left: 40%;
 	
 	
 }
@@ -57,7 +58,12 @@ body {
 
 /*small devices*/
 @media screen and (max-width: 600px){
-	
+.body{
+		 width: 50%;
+		 float: left;
+		
+	}
+	    
 }
 
 /*medium devices*/
@@ -69,5 +75,10 @@ body {
 /*Large devices*/
 
 @media screen and (max-width: 992px){
+.body{
+		 width: auto;
+		 float: none;
+		
+	}
 	
 }
