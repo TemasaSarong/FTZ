@@ -1,3 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+	
+	background-origin: #FFFFFF;
+	
+	
+	
+}
+
+.logo{
+	
+	background-color: #002F67;
+	width: 200px;
+	height: 100px;	
+}
