@@ -124,21 +124,21 @@ header nav {
   
 
 .main-nav li a {
-    color: #ffffff;
+    color: #FAF6F5;
 	display: block;
     font-size: 1.8rem;
     padding: 1em 0;
     border-bottom-width: 1px;
-    border-style: solid;
-    border-color: #262627;
+    border-style: hidden;
+    border-color: #002F67;
 }
 
   .main-nav li a.selected {
-    color: #ffffff;
+    color: #FAF6F5;
 	
   }
   .no-touch .main-nav li a:hover {
-    color: #ffffff;
+    color: #FAF6F5;
 	display: inline-block;
     font-size: 1.6rem;
     padding: .4em .2em;
@@ -147,7 +147,7 @@ header nav {
 
 .nav-trigger span::before, .nav-trigger span::after {
   /* upper and lower lines */
-    background-color: #ffffff;
+    background-color: #FAF6F5;
 	
 }
 
