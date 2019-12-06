@@ -18,7 +18,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'raleway';
 	vertical-align: baseline;
 }
 
@@ -82,7 +82,7 @@ header nav {
    display: inline-block;
 }
 
-  header {
+header {
 	  
    height: 80px;
   }
