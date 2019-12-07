@@ -52,12 +52,69 @@ body {
   font-size: 1.6rem;
 }
 
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #505050;
+}
+
 a {
   text-decoration: none;
+  color: #FFFFFF;
+}
+
+main {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding: 50px 0;
+}
+
+main > h1 {
+  color: #19191A;
+  text-align: center;
+  top: 0;
+  left: 50%;
+  height: 80px;
+  line-height: 80px;
+  width: 400px;
+  margin: 3em 0 0 -200px;
+  font-size: 2.6rem;
+  z-index: 20;
+}
+
+h1, h2 {
+  font-family: 'raleway';
+  color: #303030;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 .4em;
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+
+section > h2::before {
+  /* number before each section title */
+  color: silver;
 }
 
 img {
   max-width: 100%;
+}
+
+input, textarea, select {
+  font-family: "font-family: 'raleway'";
+  font-size: 1.6rem;
 }
 
 
@@ -82,6 +139,34 @@ header:after {
   clear: both;
   }
 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+
+ol, ul{
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+.btn {
+  border: none;
+  box-shadow: none;
+  border-radius: .25em;
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  padding: .6em 2.2em;
+  cursor: pointer;
+  background: #5f8ee4;
+}
 
 .logo{
   display: inline-block;
@@ -94,8 +179,8 @@ header:after {
 .logo img {
   position: absolute;
   display: block;
-  top: 25%;
-  left: 15%;   
+  top: 30%;
+  left: 20%;   
 }
 
 
@@ -161,7 +246,6 @@ ul main-nav{
 	
 }
 
-
 .nav-trigger {
   display: block;
   position: absolute;
@@ -198,38 +282,6 @@ ul main-nav{
   display: none;
   }
 
-main {
-  width: 90%;
-  max-width: 1024px;
-  margin: 0 auto;
-  padding-top: 80px;
-  padding: 50px 0;
-}
-
-main > h1 {
-  color: #19191a;
-  text-align: center;
-  top: 0;
-  left: 50%;
-  height: 80px;
-  line-height: 80px;
-  width: 400px;
-  margin: 3em 0 0 -200px;
-  font-size: 2.6rem;
-  z-index: 20;
-}
-
-h1, h2 {
-  font-family: 'raleway';
-  color: #303030;
-}
-
-h1 {
-  font-size: 2.4rem;
-  font-weight: 300;
-  line-height: 1.2;
-  margin: 0 0 .4em;
-}
 
 section {
     width: 48%;
@@ -395,10 +447,15 @@ section:nth-of-type(2n) {
   background: #FFFFFF;
 }
   
-
 .colors li:nth-of-type(7n) {
     margin-right: 0;
   }
+
+/* xTypography section - basic style */
+.typography h1::before {
+  content: 'Raleway - ';
+  color: #ED6B86;
+}
 
 
  
