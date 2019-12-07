@@ -104,7 +104,7 @@ h2 {
 }
 
 section > h2::before {
-  /* number before each section title */
+  /* Number before each section title */
   color: silver;
 }
 
@@ -190,7 +190,7 @@ q:before, q:after {
 }
 
 .main-nav {
-  /* main navigation background color - full screen on small devices */
+  /* Main navigation background color - full screen on small devices */
   position: static;
   display: table;
   width: auto;
@@ -241,7 +241,7 @@ ul main-nav{
 }
 
 .nav-trigger span::before, .nav-trigger span::after {
-  /* upper and lower lines */
+  /* Upper and lower lines */
   background-color: #FAF6F5;
 	
 }
@@ -324,7 +324,7 @@ section:nth-of-type(2n) {
 
 
 .box {
-  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
+  /* This is the container of various design elements - i.e. the 2 logo of the branding section */
   border: 1px solid #E6E6E6;
   border-radius: 2px;
   background: #FFFFFF;
@@ -333,7 +333,7 @@ section:nth-of-type(2n) {
 }
 
 
-/* xBranding section - basic style */
+/* Branding section - basic style */
 .branding .box {
   margin-bottom: 1em;
   padding: 6px;
@@ -387,7 +387,7 @@ section:nth-of-type(2n) {
 
 
 
-/* xColor section - basic style */
+/* Color section - basic style */
 .colors li {
   text-align: center;
   float: left;
@@ -409,7 +409,7 @@ section:nth-of-type(2n) {
 }
 
 .colors .color-swatch::before, .colors .color-swatch::after {
-  /* lighter and darker color shades of the same swatch */
+  /* Lighter and darker color shades of the same swatch */
   content: '';
   position: absolute;
   bottom: 0;
@@ -451,10 +451,48 @@ section:nth-of-type(2n) {
     margin-right: 0;
   }
 
-/* xTypography section - basic style */
+/* Typography section - basic style */
 .typography h1::before {
   content: 'Raleway - ';
   color: #ED6B86;
+}
+
+/* Button - basic style */
+
+.button {
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	border-radius: 2px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+    top: 50%;
+        font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+	margin: 15px;
+}
+
+.button a {
+	font-size: 1.4rem;
+  	line-height: 1.4;
+  	color: #707070;
+}
+
+.action-button {
+   border: 2px solid #67CFAC;
+	width: 20%;
+	background: #67CFAC;
+ 	font-size: 14px;
+	font-style:normal;
+	text-transform: uppercase;
+	color: #ffffff;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin-top: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;   
 }
 
 
