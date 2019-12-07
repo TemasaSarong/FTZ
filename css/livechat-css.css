@@ -63,7 +63,7 @@ section {
 
 .middle {
 		background-color: #F0EAEA;
-		height: 90%;
+		height: 100%;
 	   
 }
 
@@ -110,12 +110,6 @@ hr1{
 	
 }
 
-.bottom {
-		display: grid;
-		grid-template-rows: auto auto auto;
-		padding: 0px;
-		
-}
 
 .grid-container {
 		display: grid;
@@ -146,6 +140,30 @@ footer {
 		height: 10%;
    		text-align: center;
 	}
+
+/* Icons section - basic style */
+.box-icon {
+  width: 50%;
+  height: 65px;
+  float: left;
+  text-align: left;
+}
+
+.shearchbar {
+	border-color: #002F67;
+	border-radius: 2px;
+	width: 50%;
+	height:65px;	
+}
+    
+.icons li {
+  display: inline-block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 5px;
+  width: 30px;  
+}
+
 
 
 /*Code inspired by w3schools - mediaquery_breakpoints*/
