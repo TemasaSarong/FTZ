@@ -47,6 +47,11 @@ nav {
   margin-bottom: 10px;
 }
 
+img{
+	align-content: center;
+	margin-right: 5px;	
+}
+
 
 section {
   display: flex;
