@@ -3,101 +3,103 @@
 
 
 html {
-		height: 100%;
-		}
+  height: 100%;
+}
 
 body {
-  		font-family: 'Raleway', sans-serif;
-	    margin: 0;
-  		padding: 0;
-		background-color: #002f67;
-	}	
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #002f67;
+}	
 
 nav {
-		left: 0;
-   		top: 0;
-   		width: 100%;
-		height: 12%;
-   		text-align: center;		
-		}
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 12%;
+  text-align: center;		
+}
 
 .menu {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	    margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 6%;
 }
 
 .menu h2 {
-		color: #9CD9B8;
-		font-size: 20px;
-		font-weight: 400;
-		line-height: 0.5;
-		margin-top: auto;
-		margin-bottom: 10px;
+  color: #9CD9B8;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 0.5;
+  margin-top: auto;
+  margin-bottom: 10px;
 }
 
 .menu h3 {
-		color: #F0EAEA;
-		font-size: 10px;
-		font-weight: 400;
-		text-transform: uppercase;
-		line-height: 1;
-		margin-top: 0;
-		margin-bottom: 10px;
+  color: #F0EAEA;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 
 section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 85%;
 }
 
 .top {
-		background-color: #F0EAEA;
-		height: 5%;
+  background-color: #F0EAEA;
+  height: 5%;
 	   
 }
 
 .middle {
-		background-color: #F0EAEA;
-		height: 100%;
+  background-color: #F0EAEA;
+  height: 100%;
 	   
 }
 
 .accordion {
-    background-color: #F0EAEA;
-    color: #002F67;
-    cursor: pointer;
-    padding: 5px;
-	margin-left: 80px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 20px;
-    transition: 0.4s;
+  background-color: #F0EAEA;
+  color: #002F67;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 80px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
 }
 
 .active, .accordion:hover {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .panel {
-    padding: 0 18px;
-    display: none;
-    background-color: #F0EAEA;
-    overflow: hidden;
+  padding: 0 18px;
+  display: none;
+  background-color: #F0EAEA;
+  overflow: hidden;
 }
 
 ol, ul{
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
@@ -105,41 +107,20 @@ q:before, q:after {
 }
 
 hr1{
-	border: 8px #002F67;
-	width: 5px;
+  border: 8px #002F67;
+  width: 5px;
 	
 }
 
 
-.grid-container {
-		display: grid;
-		grid-template-columns: auto auto auto;
-		padding: 0px;
-		width: 100%;
-}
-
-.grid-item {
-		background-color: #F0EAEA;
-		border: 1px solid #9CD9B8;
-		padding: 27px;
-		font-size: 1px;
-		text-align: center;
-}
-
-.grid-item img {
-		height: 20px;
-		padding: 1px;
-}
-
-
 footer {
-		left: 0;
-		bottom: 0;
-   		position: fixed;
-		width: 100%;
-		height: 10%;
-   		text-align: center;
-	}
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+}
 
 /* Icons section - basic style */
 .box-icon {
@@ -150,10 +131,10 @@ footer {
 }
 
 .shearchbar {
-	border-color: #002F67;
-	border-radius: 2px;
-	width: 50%;
-	height:65px;	
+  border-color: #002F67;
+  border-radius: 2px;
+  width: 60%;
+  height:65px;	
 }
     
 .icons li {
@@ -165,14 +146,13 @@ footer {
 }
 
 
-
 /*Code inspired by w3schools - mediaquery_breakpoints*/
 
 /*smallest devices*/
 @media screen and (min-width: 200px)
 {
    	body{
-		background-image: linear-gradient(black, #3385e8); }
+	  background-image: linear-gradient(black, #3385E8); }
 
 }
 
@@ -180,14 +160,14 @@ footer {
 @media screen and (min-width: 400px)
 {
    	body{
-		background-image: linear-gradient(#002f67, #3385e8); }
+	  background-image: linear-gradient(#002f67, #3385E8); }
 }
 
 /*medium devices*/
 @media screen and (min-width: 600px)
 {
 	body{
-		background-image: linear-gradient(red, #3385e8); }	
+	  background-image: linear-gradient(red, #3385E8); }	
 	
 }
 
@@ -196,7 +176,7 @@ footer {
 @media screen and (min-width: 800px)
 {
 	body{
-		background-image: linear-gradient(yellow, #3385e8);	}
+	  background-image: linear-gradient(yellow, #3385E8);	}
 	
 }
 
@@ -205,6 +185,6 @@ footer {
 @media screen and (min-width: 2000px)
 {
 	body{
-		background-image: linear-gradient(green, #3385e8);	}
+	  background-image: linear-gradient(green, #3385E8);	}
 	
 }
