@@ -130,7 +130,7 @@ footer {
 /* Icons section - basic style */
 .box-icon {
   width: 50%;
-  height: 65px;
+  height: 100px;
   float: left;
   text-align: left;
 }
@@ -139,7 +139,7 @@ footer {
   border-color: #002F67;
   border-radius: 2px;
   width: 60%;
-  height:65px;	
+  height: 100px;	
 }
     
 .icons li {
