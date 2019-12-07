@@ -14,12 +14,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-    font-family: 'raleway';
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'raleway';
+  vertical-align: baseline;
 }
 
 
@@ -35,21 +35,19 @@ html * {
 }
 
 html {
-	
   scroll-behavior: smooth;
   font-size: 62.5%;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 body {
-	
-	line-height: 1;
-	background-origin: #FFFFFF;
-    font-size: 1.6rem;
+  line-height: 1;
+  background-origin: #FFFFFF;
+  font-size: 1.6rem;
 }
 
 a {
@@ -61,80 +59,72 @@ img {
 }
 
 header{
-	
-	background-color: #002F67;
+  background-color: #002F67;
 		
 }
 
 header {
-	
-    position: fixed;
-    height: 50px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  z-index: 10;
 }
 
 header nav {
-	
-   display: inline-block;
+  display: inline-block;
 }
 
 header {
-	  
-   height: 80px;
+  height: 80px;
   }
 
     
-  header:after {
-	  
-   content: "";
-   display: table;
-   clear: both;
+header:after {
+  content: "";
+  display: table;
+  clear: both;
   }
 
 
 .logo{
-	
-	display: inline-block;
-    height: 100%;
-    position: relative;
-	width: 185px;
+  display: inline-block;
+  height: 100%;
+  position: relative;
+  width: 185px;
 		
 }
 
 .logo img {
-    position: absolute;
-    display: block;
-    top: 25%;
-    left: 15%;   
+  position: absolute;
+  display: block;
+  top: 25%;
+  left: 15%;   
 }
 
 
 .main-nav{
-	
-	background-color: #002F67;	
+  background-color: #002F67;	
 	
 }
 
 .main-nav {
-	
   /* main navigation background color - full screen on small devices */
-	position: static;
-    display: table;
-    width: auto;
-    height: 80px;
-    background: transparent;
-    padding: 0 2em;
-    text-align: left;
+  position: static;
+  display: table;
+  width: auto;
+  height: 80px;
+  background: transparent;
+  padding: 0 2em;
+  text-align: left;
 }
 
- .main-nav li {
-    display: table-cell;
-    vertical-align: middle;
-    padding: 0 1em;
+.main-nav li {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 1em;
   }
 
 .main-nav li:first-of-type a {
@@ -144,25 +134,26 @@ header {
   
 
 .main-nav li a {
-    color: #FAF6F5;
-	display: block;
-    font-size: 1.8rem;
-    padding: 1em 0;
-    border-bottom-width: 1px;
-    border-style: hidden;
-    border-color: #002F67;
+  color: #FAF6F5;
+  display: block;
+  font-size: 1.8rem;
+  padding: 1em 0;
+  border-bottom-width: 1px;
+  border-style: hidden;
+  border-color: #002F67;
 }
 
-  .main-nav li a.selected {
-    color: #FAF6F5;
+.main-nav li a.selected {
+  color: #FAF6F5;
 	
   }
-  .no-touch .main-nav li a:hover {
-    color: #FAF6F5;
-	display: inline-block;
-    font-size: 1.6rem;
-    padding: .4em .2em;
-    border-bottom: none;
+
+.no-touch .main-nav li a:hover {
+  color: #FAF6F5;
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: .4em .2em;
+  border-bottom: none;
   }
 
 ul main-nav{
@@ -172,7 +163,7 @@ ul main-nav{
 
 .nav-trigger span::before, .nav-trigger span::after {
   /* upper and lower lines */
-    background-color: #FAF6F5;
+  background-color: #FAF6F5;
 	
 }
 
@@ -189,6 +180,7 @@ ul main-nav{
   white-space: nowrap;
   color: transparent;
 }
+
 .nav-trigger span {
   position: absolute;
   height: 2px;
@@ -201,6 +193,7 @@ ul main-nav{
   -moz-transition: background-color 0.3s 0.3s;
   transition: background-color 0.3s 0.3s;
 }
+
 .nav-trigger span::before, .cd-nav-trigger span::after {
   content: '';
   position: absolute;
@@ -209,9 +202,44 @@ ul main-nav{
   /* Force Hardware Acceleration in WebKit */
 }
 
-  .nav-trigger {
-    display: none;
+.nav-trigger {
+  display: none;
   }
+
+main {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding: 50px 0;
+}
+
+main > h1 {
+  color: #19191a;
+  text-align: center;
+  top: 0;
+  left: 50%;
+  height: 80px;
+  line-height: 80px;
+  width: 400px;
+  margin: 3em 0 0 -200px;
+  font-size: 2.6rem;
+  z-index: 20;
+}
+
+h1, h2 {
+  font-family: 'raleway';
+  color: #303030;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 .4em;
+}
+
+
 
 
 
