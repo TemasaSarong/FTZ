@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*This styleguide is inspired by our previous project styleguide (MultiKEY), but we have improved it from then*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -58,14 +60,11 @@ img {
   max-width: 100%;
 }
 
-header{
-  background-color: #002F67;
-		
-}
 
 header {
+  background-color: #002F67;
   position: fixed;
-  height: 50px;
+  height: 80px;
   width: 100%;
   top: 0;
   left: 0;
@@ -76,11 +75,6 @@ header {
 header nav {
   display: inline-block;
 }
-
-header {
-  height: 80px;
-  }
-
     
 header:after {
   content: "";
@@ -168,7 +162,6 @@ ul main-nav{
 }
 
 
-
 .nav-trigger {
   display: block;
   position: absolute;
@@ -238,8 +231,174 @@ h1 {
   margin: 0 0 .4em;
 }
 
+section {
+    width: 48%;
+    float: left;
+    margin: 0 4% 4em 0;
+  }
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section:nth-of-type(1) h2::before {
+  content: '1. ';
+}
+section:nth-of-type(2) h2::before {
+  content: '2. ';
+}
+section:nth-of-type(3) h2::before {
+  content: '3. ';
+}
+section:nth-of-type(4) h2::before {
+  content: '4. ';
+}
+section:nth-of-type(5) h2::before {
+  content: '5. ';
+}
+section:nth-of-type(6) h2::before {
+  content: '6. ';
+}
+section:nth-of-type(7) h2::before {
+  content: '7. ';
+}
+ 
+
+section:nth-of-type(2n) {
+    margin-right: 0;
+  }
 
 
+
+.box {
+  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
+  border: 1px solid #E6E6E6;
+  border-radius: 2px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  padding: 6px;
+}
+
+
+/* xBranding section - basic style */
+.branding .box {
+  margin-bottom: 1em;
+  padding: 6px;
+  width: 46%;
+  float: left;
+}
+
+.branding img {
+  background-color: #002F67;
+  display: block;
+  width: 100%;
+}
+
+.branding ul:last-of-type {
+  padding-top: .6em;
+  clear: left;
+}
+
+.branding ul:last-of-type li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.branding ul:last-of-type li:nth-of-type(1) img {
+  width: 90px;
+  height: 90px;
+  border-radius: 3em;
+}
+
+.branding ul:last-of-type li:nth-of-type(2) img {
+  width: 60px;
+  height: 60px;
+  border-radius: .6em;
+}
+
+.branding ul:last-of-type li:nth-of-type(3) img {
+  width: 32px;
+  height: 32px;
+  border-radius: .4em;
+}
+
+.branding ul:last-of-type li:nth-of-type(4) img {
+  width: 16px;
+  height: 16px;
+  border-radius: .2em;
+}
+
+.branding .box:nth-of-type(1n) {
+  margin-right: 20px;
+  }
+
+
+
+/* xColor section - basic style */
+.colors li {
+  text-align: center;
+  float: left;
+  width: 16%;
+}
+.colors li:nth-of-type(1n) {
+  margin-right: 6px;
+  margin-bottom: 6px;
+  text-align: center;
+  width: 140px;
+    
+}
+
+.colors .color-swatch {
+  position: relative;
+  width: 100%;
+  padding: 50% 0;
+  border: 1px solid #E6E6E6;
+}
+
+.colors .color-swatch::before, .colors .color-swatch::after {
+  /* lighter and darker color shades of the same swatch */
+  content: '';
+  position: absolute;
+  bottom: 0;
+}
+.colors .color-swatch::before {
+  left: 0;
+}
+.colors .color-swatch::after {
+  right: 0;
+}
+.colors b {
+  display: block;
+  padding: .6em 0;
+}
+
+.colors li:nth-of-type(1) .color-swatch {
+  background: #002F67;
+}
+.colors li:nth-of-type(2) .color-swatch {
+  background: #9CD9B8;
+}
+.colors li:nth-of-type(3) .color-swatch {
+  background: #3385E8;
+}
+.colors li:nth-of-type(4) .color-swatch {
+  background: #D9D1AD;
+}
+.colors li:nth-of-type(5) .color-swatch {
+  background: #707070;
+}
+.colors li:nth-of-type(6) .color-swatch {
+  background: #F0EAEA;
+}
+.colors li:nth-of-type(7) .color-swatch {
+  background: #FFFFFF;
+}
+  
+
+.colors li:nth-of-type(7n) {
+    margin-right: 0;
+  }
 
 
  
