@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+		height: 100%;
+		}
+
+body {
+  		font-family: 'Raleway', sans-serif;
+	    margin: 0;
+  		padding: 0;
+		background-color: #002f67;
+	}	
+
+nav {
+		left: 0;
+   		top: 0;
+   		width: 100%;
+		height: 12%;
+   		text-align: center;		
+		}
+
+.menu {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+}
+
+.menu i {
+		color: #F0EAEA;
+		padding: 15px;
+}
+
+.menu img {
+		width: 160px;
+		height: auto;
+		opacity: 0.9;
+		padding: 12px;
+}
+
+.submenu {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+}
+
+.submenu h2 {
+		color: #9CD9B8;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 0.5;
+		margin-top: auto;
+		margin-bottom: 10px;
+}
+
+.submenu h3 {
+		color: #F0EAEA;
+		font-size: 10px;
+		font-weight: 400;
+		text-transform: uppercase;
+		line-height: 1;
+		margin-top: 0;
+		margin-bottom: 10px;
+}
+
+section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 82%;
+}
+
+.top {
+		background-image: url("../billeder/dashboard.jpg");
+		height: 45%;
+}
+
+.slideText {
+		color: #F0EAEA;
+		text-transform: uppercase;
+		text-align: right;
+		padding-top: 52%;
+		padding-right: 15px;
+}
+.bottom {
+		display: grid;
+		grid-template-rows: auto auto auto;
+		padding: 0px;
+		
+}
+
+.grid-container {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		padding: 0px;
+		width: 100%;
+}
+
+.grid-item {
+		background-color: #F0EAEA;
+		border: 1px solid #9CD9B8;
+		padding: 27px;
+		font-size: 15px;
+		text-align: center;
+}
+
+.grid-item img {
+		height: 30px;
+		padding: 5px;
+}
+
+
+footer {
+		left: 0;
+		bottom: 0;
+   		position: fixed;
+		width: 100%;
+		height: 10%;
+   		text-align: center;
+	}
+
+.icons {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+   		align-items: center;
+	}
+
+.icons i {
+		color: #F0EAEA;
+		padding: 15px;
+}
+
+/*Code inspired by w3schools - mediaquery_breakpoints*/
+
+/*smallest devices*/
+@media screen and (min-width: 200px)
+{
+   	body{
+		background-image: linear-gradient(black, #3385e8); }
+
+}
+
+/*small devices - this is our preferable size*/
+@media screen and (min-width: 400px)
+{
+   	body{
+		background-image: linear-gradient(#002f67, #3385e8); }
+}
+
+/*medium devices*/
+@media screen and (min-width: 600px)
+{
+	body{
+		background-image: linear-gradient(red, #3385e8); }	
+	
+}
+
+/*Large devices - ipad pro*/
+
+@media screen and (min-width: 800px)
+{
+	body{
+		background-image: linear-gradient(yellow, #3385e8);	}
+	
+}
+
+/*X-Large devices - fullscreen*/
+
+@media screen and (min-width: 2000px)
+{
+	body{
+		background-image: linear-gradient(green, #3385e8);	}
+	
+}
