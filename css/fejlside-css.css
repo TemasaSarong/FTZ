@@ -18,8 +18,20 @@ body {
 	    justify-content: center;
 		align-items: center;
 		text-align: center;
-		margin-top: 25%;
-		margin-bottom: 25%;
+		margin-top: 15%;
+		margin-bottom: auto;
+}
+
+h1 {
+	color: #F0EAEA;
+	font-weight: 500;
+	font-size: 25px;
+	text-align: center;	
+	text-transform: uppercase;
+	line-height: 1.2;
+	margin-top: 15px;
+	margin-bottom: 0;
+	padding-top: 0;
 }
 
 .logo {
@@ -28,7 +40,7 @@ body {
 
 .logo img {
 		width: 60%;
-		padding-top: 25%;
+		padding-top: 15%;
 		height: auto;
 		opacity: 0.9;
 }
@@ -39,9 +51,32 @@ body {
 
 .pile img {
 		width: 20%;
-		padding-top: 30%;
+		padding-top: 15%;
 		height: auto;
 
+}
+
+.tekstbox {
+	margin-top: 80px;
+	background-color: none;
+}
+
+h2 {
+	color: #F0EAEA;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 2.5;
+}
+
+h2 a {
+	color: #F0EAEA;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
 }
 
 /*Code inspired by w3schools - mediaquery_breakpoints*/
