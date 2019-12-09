@@ -76,12 +76,19 @@ section {
 }
 
 .slideText {
+		padding-left: 45%;
+}
+
+.slideText p {
 		color: #F0EAEA;
 		text-transform: uppercase;
 		text-align: right;
 		padding-top: 52%;
 		padding-right: 15px;
+		position: absolute;
+		transition: opacity .5s ease-in;
 }
+
 .bottom {
 		display: grid;
 		grid-template-rows: auto auto auto;
