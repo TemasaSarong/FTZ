@@ -16,7 +16,7 @@ nav {
 		left: 0;
    		top: 0;
    		width: 100%;
-		height: 12%;
+		height: 13%;
    		text-align: center;		
 		}
 
@@ -63,7 +63,7 @@ nav {
 		margin-bottom: 10px;
 }
 
-section {
+.section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -72,16 +72,26 @@ section {
 
 .top {
 		background-image: url("../billeder/dashboard.jpg");
-		height: 45%;
+		height: 250px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 }
 
 .slideText {
+		padding-left: 45%;
+}
+
+.slideText p {
 		color: #F0EAEA;
 		text-transform: uppercase;
 		text-align: right;
-		padding-top: 52%;
+		padding-top: 200px;
 		padding-right: 15px;
+		position: absolute;
+		transition: opacity .5s ease-in;
 }
+
 .bottom {
 		display: grid;
 		grid-template-rows: auto auto auto;
@@ -105,7 +115,7 @@ section {
 }
 
 .grid-item img {
-		height: 30px;
+		height: 25px;
 		padding: 5px;
 }
 
