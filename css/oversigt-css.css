@@ -3,14 +3,17 @@
 
 html {
 		height: 100%;
-		}
+}
 
 body {
-  		font-family: 'Raleway', sans-serif;
 	    margin: 0;
   		padding: 0;
+}
+
+.container {
+		font-family: 'Raleway', sans-serif;
 		background-color: #002f67;
-	}	
+}
 
 nav {
 		left: 0;
@@ -18,7 +21,7 @@ nav {
    		width: 100%;
 		height: 13%;
    		text-align: center;		
-		}
+}
 
 .menu {
 		display: flex;
@@ -60,7 +63,7 @@ nav {
 		text-transform: uppercase;
 		line-height: 1;
 		margin-top: 0;
-		margin-bottom: 10px;
+		margin-bottom: 12px;
 }
 
 .section {
@@ -82,7 +85,8 @@ nav {
 		padding-left: 45%;
 }
 
-.slideText p {
+.slideTextt {
+		opacity: 0;
 		color: #F0EAEA;
 		text-transform: uppercase;
 		text-align: right;
@@ -92,6 +96,8 @@ nav {
 		transition: opacity .5s ease-in;
 }
 
+/*	Grid code inspired by: 
+	https://www.w3schools.com/css/tryit.asp?filename=trycss_grid */
 .bottom {
 		display: grid;
 		grid-template-rows: auto auto auto;
@@ -109,14 +115,19 @@ nav {
 .grid-item {
 		background-color: #F0EAEA;
 		border: 1px solid #9CD9B8;
-		padding: 27px;
-		font-size: 15px;
+		padding: 18px;
 		text-align: center;
 }
 
 .grid-item img {
-		height: 25px;
+		height: 35px;
 		padding: 5px;
+}
+
+.grid-item p {
+		font-size: 15px;
+		line-height: 0.5;
+		margin-top: 4px;
 }
 
 
