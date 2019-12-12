@@ -30,7 +30,7 @@ nav {
 }
 
 .menu i {
-		color: #F0EAEA;
+		color: #FAF6F5;
 		padding: 15px;
 }
 
@@ -57,7 +57,7 @@ nav {
 }
 
 .submenu h3 {
-		color: #F0EAEA;
+		color: #FAF6F5;
 		font-size: 10px;
 		font-weight: 400;
 		text-transform: uppercase;
@@ -87,7 +87,7 @@ nav {
 
 .slideTextt {
 		opacity: 0;
-		color: #F0EAEA;
+		color: #FAF6F5;
 		text-transform: uppercase;
 		text-align: right;
 		padding-top: 200px;
@@ -113,7 +113,7 @@ nav {
 }
 
 .grid-item {
-		background-color: #F0EAEA;
+		background-color: #FAF6F5;
 		border: 1px solid #9CD9B8;
 		padding: 18px;
 		text-align: center;
@@ -126,10 +126,15 @@ nav {
 
 .grid-item p {
 		font-size: 15px;
+		color: #000000;
 		line-height: 0.5;
 		margin-top: 4px;
+		text-transform: uppercase;
 }
 
+.grid-item a {
+		text-decoration: none;
+}
 
 footer {
 		left: 0;
@@ -149,7 +154,7 @@ footer {
 	}
 
 .icons i {
-		color: #F0EAEA;
+		color: #FAF6F5;
 		padding: 15px;
 }
 
