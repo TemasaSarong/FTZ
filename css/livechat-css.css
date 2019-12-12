@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Comment was it is!*/
 
 html {
   height: 100%;
@@ -12,6 +13,11 @@ body {
   padding: 0;
   background-color: #002f67;
 }	
+
+.container{
+	max-width: 500px;
+	
+}
 
 nav {
   left: 0;
@@ -59,7 +65,7 @@ section {
   height: 100%;
 }
 
-.top {
+body section .top {
   background-color: #F0EAEA;
   height: 5%;
 	   
@@ -68,6 +74,7 @@ section {
 .middle {
   background-color: #F0EAEA;
   height: 100%;
+
 	   
 }
 
@@ -76,7 +83,6 @@ section {
   color: #002F67;
   cursor: pointer;
   padding: 5px;
-  margin-left: 80px;
   width: 100%;
   border: none;
   text-align: left;
@@ -100,15 +106,6 @@ ol, ul{
   list-style: none;
 }
 
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
 
 hr1{
   border: 8px #002F67;
@@ -120,7 +117,7 @@ hr1{
 footer {
   left: 0;
   bottom: 0;
-  position: fixed;
+  position: inherit;
   width: 100%;
   height: 10%;
   text-align: center;
