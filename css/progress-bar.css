@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+#myProgress {
+    margin: 50px;
+  width: 50%;
+  background-color: #ebebeb;
+}
+
+#myBar {
+  width: 5%;
+  height: 30px;
+  background-color: #9cd9b8;
+}
+
