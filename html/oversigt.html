@@ -1,90 +1,82 @@
 <!doctype html>
 <html lang="da">
 <head>
-<meta charset="utf-8">
-	
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../css/oversigt-css.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,600i,700,800&display=swap" rel="stylesheet"> 
 	<script src="https://kit.fontawesome.com/266ad4a4ba.js" crossorigin="anonymous"></script>
-	
-<title>Oversigt</title>
-	
+	<title>Oversigt</title>
 </head>
 
 <body>
-	<nav>
-		<div class="menu">
-			<a href="#"><i class="fas fa-bars fa-2x"></i></a>
-			<img src="../billeder/logo1.png" alt="Logo for DriveClever">
-			<a href="#"><i class="far fa-bell fa-2x"></i></a>
-		</div>
-		
-		<div class="submenu">
-			<h2>Brians Golf</h2>
-			<h3>bv 87 463</h3>
-		</div>
-	</nav>
-	
-	
-	<div class="section">
-		
-		<div class="top">
-			<div class="slideText">
-				<p>Brændstof 67 % fuld</p>
-				<p>Sprinkler 21 %</p>
-				<p>Olieskift om 489 dage</p>
-				<p>Dæktryk 231 kPa</p>
-				<p>Batteri 11.8 V</p>
+	<div class="container">
+		<nav>
+			<div class="menu">
+				<a href="#"><i class="fas fa-bars fa-2x"></i></a>
+				<img src="../billeder/logo1.png" alt="Logo for DriveClever">
+				<a href="#"><i class="far fa-bell fa-2x"></i></a>
+			</div>
+			<div class="submenu">
+				<h2>Brians Golf</h2>
+				<h3>bv 87 463</h3>
+			</div>
+		</nav>
+		<div class="section">
+			<div class="top">
+				<div class="slideText">
+					<p class="slideTextt">Brændstof 67 % fuld</p>
+					<p class="slideTextt">Sprinkler 21 %</p>
+					<p class="slideTextt">Olieskift om 489 dage</p>
+					<p class="slideTextt">Dæktryk 231 kPa</p>
+					<p class="slideTextt">Batteri 11.8 V</p>
+				</div>
+			</div>
+			<div class="bottom">
+				<!-- 	Grid code inspired by: 
+					https://www.w3schools.com/css/tryit.asp?filename=trycss_grid -->
+				<div class="grid-container">
+						<div class="grid-item">
+							<img src="../billeder/vaerksted.png" alt="Værksted">
+							<p>Værksted</p>
+						</div>
+						<div class="grid-item">
+							<img src="../billeder/forsikring.png" alt="Forsikring">
+							<p>Forsikring</p>
+						</div>
+						<div class="grid-item">
+							<img src="../billeder/kalender.png" alt="Kalender">
+							<p>Kalender</p>
+						</div>  
+						<div class="grid-item">
+							<img src="../billeder/vejhjaelp.png" alt="Vejhjælp">
+							<p>Vejhjælp</p>
+						</div>
+						<div class="grid-item">
+							<img src="../billeder/shop.png" alt="Shop">
+							<p>Shop</p>
+						</div>
+						<div class="grid-item">
+							<a href="livechat.html">
+								<img src="../billeder/chat@2x.png" alt="Benzinkort">
+								<p>Chat</p>
+							</a>
+						</div> 
+				</div>
 			</div>
 		</div>
-		
-		<!-- 	Grid code inspired by: 
-			 	https://www.w3schools.com/css/tryit.asp?filename=trycss_grid -->
-		<div class="bottom">
-			<div class="grid-container">
-				  <div class="grid-item">
-					  <img src="../billeder/vaerksted.png" alt="Værksted"><br>Værksted</div>
-				  <div class="grid-item">
-					  <img src="../billeder/forsikring.png" alt="Forsikring"><br>Forsikring</div>
-				  <div class="grid-item">
-					  <img src="../billeder/kalender.png" alt="Kalender"><br>Kalender</div>  
-				  <div class="grid-item">
-					  <img src="../billeder/vejhjaelp.png" alt="Vejhjælp"><br>Vejhjælp</div>
-				  <div class="grid-item">
-					  <img src="../billeder/shop.png" alt="Shop"><br>Shop</div>
-				  <div class="grid-item">
-					  <img src="../billeder/benzinkort.png" alt="Benzinkort"><br>Benzinkort</div> 
+		<footer>
+			<!-- 	Icons from: 
+					https://fontawesome.com/icons?d=gallery -->
+			<div class="icons">
+				<a href="#"><i class="fas fa-car fa-2x"></i></a>
+				<a href="#"><i class="fas fa-exclamation-triangle fa-2x"></i></a>
+				<a href="#"><i class="fas fa-user-circle fa-2x"></i></a>
 			</div>
-		</div>
-		
+		</footer>
 	</div>
-	
-	
-	<footer>
-		<!-- 	Icons from: 
-			 	https://fontawesome.com/icons?d=gallery -->
-		<div class="icons">
-			<a href="#"><i class="fas fa-car fa-2x"></i></a>
-			<a href="#"><i class="fas fa-question-circle fa-2x"></i></a>
-			<a href="#"><i class="fas fa-user-circle fa-2x"></i></a>
-		</div>
-	</footer>
-	
 	<!-- 	JavaScript code inspired by: 
 			https://stackoverflow.com/questions/36184252/javascript-only-li-text-slider -->
-	<script>
-		var current = 0,
-    		slides = document.getElementsByTagName("p");
-
-		setInterval(function() {
-			for (var i = 0; i < slides.length; i++) {
-			slides[i].style.opacity = 0;
-			}
-			current = (current != slides.length - 1) ? current + 1 : 0;
-			slides[current].style.opacity = 1;
-		}, 2000);
-	</script>
-	
+	<script src="../javascript/oversigt-js.js"></script>	
 </body>
 </html>
