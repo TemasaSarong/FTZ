@@ -21,8 +21,18 @@
 		 
 	</div>
    
-	        <script src="file:///Instaprint%20HD/Users/julieandersen/Desktop/FTZ/javascript/progressbar-javascript.js"></script>
+<script>
+var myVar;
 
+function onload() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function frame() {
+  document.getElementById("myProgress").style.display = "none";
+  document.getElementById("myBar").style.display = "block";
+}
+</script>
  
 </body>
 </html>

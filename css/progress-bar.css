@@ -2,8 +2,8 @@
 /* CSS Document */
 #myProgress {
     margin: 50px;
-  width: 50%;
-  background-color: #ebebeb;
+    width: 50%;
+    background-color: #ebebeb;
     border-radius: 5px;
 }
 
@@ -14,7 +14,8 @@
   text-align: center;
   line-height: 30px;
   color: whrite;
-    border-radius: 5px;
+  border-radius: 5px;
+  font-size: 10px
     
 }
 
