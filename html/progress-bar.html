@@ -16,21 +16,31 @@
 	         <img src="../billeder/logo1.png" alt="DriveClever logo"/>
 	     </div>  
 		 <div id="myProgress">
-     <div id="myBar">10%</div>
-    </div>
-		 
-	</div>
-   
+  <div id="myBar">10%</div>
+</div>
+
+<br>
+<button onclick="move()">Klik her</button> 
+
 <script>
-var myVar;
-
-function onload() {
-  myVar = setTimeout(showPage, 3000);
-}
-
-function frame() {
-  document.getElementById("myProgress").style.display = "none";
-  document.getElementById("myBar").style.display = "block";
+var i = 0;
+function move() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar");
+    var width = 10;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+        elem.innerHTML = width  + "%";
+      }
+    }
+  }
 }
 </script>
  
