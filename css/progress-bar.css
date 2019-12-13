@@ -4,6 +4,7 @@
     margin: 50px;
   width: 50%;
   background-color: #ebebeb;
+<<<<<<< HEAD
     border-radius: 5px;
 }
 
@@ -16,5 +17,13 @@
   color: whrite;
     border-radius: 5px;
     
+=======
+}
+
+#myBar {
+  width: 5%;
+  height: 30px;
+  background-color: #9cd9b8;
+>>>>>>> 907a264abf5cce5bc4f42fb79a1358f2d7ffcd32
 }
 
