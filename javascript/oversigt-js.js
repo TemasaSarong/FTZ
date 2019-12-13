@@ -3,7 +3,7 @@
 
 
 var current = 0,
-	slides = document.getElementsByClassName("slideTextt");
+	slides = document.getElementsByClassName("slideText");
 
 setInterval(function() {
 	for (var i = 0; i < slides.length; i++) {
@@ -12,3 +12,10 @@ setInterval(function() {
 	current = (current != slides.length - 1) ? current + 1 : 0;
 	slides[current].style.opacity = 1;
 }, 2000);
+
+// if 
+	
+// else 
+	
+// husk at forklar hvad der hentes med eventListener (slideTextt)
+	
