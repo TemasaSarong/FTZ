@@ -1,9 +1,11 @@
 // JavaScript Document
 var i = 0;
-function move() {
+function () {
   if (i == 0) {
     i = 1;
     var elem = document.getElementById("myBar");
+    var width = 10;
+
     var width = 1;
     var id = setInterval(frame, 10);
     function frame() {
@@ -13,6 +15,7 @@ function move() {
       } else {
         width++;
         elem.style.width = width + "%";
+        elem.innerHTML = width  + "%";
       }
     }
   }
