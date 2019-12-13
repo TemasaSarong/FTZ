@@ -81,11 +81,11 @@ nav {
 		background-size: cover;
 }
 
-.slideText {
+.slideBox {
 		padding-left: 45%;
 }
 
-.slideTextt {
+.slideText {
 		opacity: 0;
 		color: #FAF6F5;
 		text-transform: uppercase;

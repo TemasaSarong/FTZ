@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'raleway';
+}
+
+body {
+	overflow-x: hidden;
+}
+
+main {
+	margin-left: 24vw; /* skal ændres i takt med navBars width*/
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+	color: #002F67;
+	align-content: center;
+}
+
+h2 {
+/* Titel before each section */
+	color: silver;
+}
+
+/* Navigations bar */
+.navigatinsBar {
+	height: 100vh;
+	width: 18vw;
+	position: fixed;
+	top: 0px;
+	background-color: #002F67;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+ul li a {
+	color: #FFFFFF;
+	display: block;
+	padding: 10px;
+	margin-left: 30px;
+	font-size: 25px;
+	position: relative;
+	text-decoration: none;
+}
+
+ul li:hover{
+	background-color: #3385E8;
+}
+
+ul li a:hover {
+	color: #002F67;
+}
+
+.landingSection, .logoSection, .colorsSection, .typographySection, .buttonSection, .iconSection,
+.formsSection{
+	width: 100%;
+	height: 110vh; /*Ændre på denne alt efter str. på afsnit*/
+}
+
+.landingSection {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.colorsSection{
+	margin-top: -90px;
+}
+
+.typographySection{
+	margin-top: -90px;
+}
+
+.buttonSection{
+	margin-top: -550px;
+}
+
+.iconSection{
+	margin-top: -550px;
+}
+
+.formsSection{
+	margin-top: 2800px;
+}
+
+
+body .landingSection img{
+	width: 200px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 5px;
+}
+
+/* Branding-Logos */
+.card{
+	display:inline-block;
+	background-color:#FFFFFF;
+	margin:5px;
+	padding-bottom:10px;
+	border-radius:5px;
+	-moz-box-shadow:0 2px 2px 0 rgba(0,0,0,0.2);
+	-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,0.2);
+	box-shadow:0 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+.image-box,.title-box,.desc-box,
+.card{
+	width:450px;
+}
+
+.image-box{
+	border-radius: 10px 10px 0 0;
+	background-color:#002F67;
+	margin-bottom: -8px;
+	height: 150px;
+	align-items: center;
+}
+
+.image-picture{
+	width:auto;
+}
+
+.title-box{
+	margin:0 auto;
+	font-size:18px;
+	padding:25px 20px 20px;
+}
+
+.line{
+	height:1px;
+	background:#EBEBEB;
+	margin-bottom: 10px;
+}
+
+.desc-box{
+	padding:0 20px 10px;
+	color:#000000;
+	font-size:12px
+}
+
+.title,.desc{
+	width:330px
+}
+
+/* Color section - basic style */
+section.container header h1 {
+	font-weight: 200;
+	font-size: 3em;
+	color: #656D78;
+	text-align: center;
+}
+
+section.box {
+	width: 1300px;
+	background-color: #FFFFFF;
+	box-shadow: 0 4px 6px #EBEBEB;
+	border-radius: 5px;
+	display: block;
+	float: left;
+	margin: 10px;
+}
+
+section.box h1 {
+	font-weight: 400;
+	font-size: 20px;
+	color: #000000;
+	display: block;
+	float: left;
+	padding: 10px 0px 0px 480px;
+}
+
+section.box p {
+	font-weight: 400;
+	font-size: 20px;
+	color: #000000;
+	display: block;
+	float: right;
+	padding: 10px 20px 0px 400px;
+}
+
+section.color {
+	width: 140px;
+	height: 50px;
+	background-color: #000000;
+	border-top-left-radius: 5px;
+	display: block;
+	float: left;
+}
+
+/* Darkblue */
+section.color.dark-blue {background-color:#002F67;}
+
+/* Green */
+section.color.green {background-color:#9CD9B8;}
+
+
+/* Lightblue */
+section.color.light-blue {background-color:#3385E8;}
+
+
+/* Gray */
+section.color.gray {background-color:#EBEBEB;}
+
+/* White gray */
+section.color.white-gray {background-color:#FAF6F5;}
+
+/* White */
+section.color.white {background-color:#FFFFFF;}
+
+
+/* Red */
+section.color.red {background-color:#ED4D4D;}
+
+
+/* Black */
+section.color.black {background-color:#000000;}
+
+/* Button - basic style */
+.button {
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	border-radius: 2px;
+	border: 1px solid #dcdcdc;
+	display: inline-block;
+	cursor: pointer;
+	top: 50%;
+	font-weight: bold;
+	padding: 10px;
+	margin: 15px;
+}
+
+.button a {
+	font-size: 1.4rem;
+	line-height: 1.4;
+	color: #707070;
+}
+
+.action-button {
+	border: 2px solid #3385E8;
+	width: 20%;
+	background: #3385E8;
+	font-size: 14px;
+	font-style:normal;
+	text-transform: uppercase;
+	color: #ffffff;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin-top: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;   
+}
+
+/* Icon - basic style*/
+
+.image-box img{
+	height: 80px;
+	padding: 30px;
+	padding-left: 20px;
+}
+
