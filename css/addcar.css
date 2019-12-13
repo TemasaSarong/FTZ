@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	position: center;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	background: rgb(2,0,36);
+	background: -webkit-linear-gradient(rgba(2,0,36,1) 0%, rgba(0,47,103,1) 0%, rgba(50,134,231,1) 100%);
+	background: -o-linear-gradient(rgba(2,0,36,1) 0%, rgba(0,47,103,1) 0%, rgba(50,134,231,1) 100%);
+	background: linear-gradient(rgba(2,0,36,1) 0%, rgba(0,47,103,1) 0%, rgba(50,134,231,1) 100%);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 941px;
+	
+}
+
+.top {
+	background-image: url("../billeder/dashboard.jpg");
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-weight: 1;
+	text-align: center;
+}
+
+button {
+	position: center;
+	background: #9cd9b8;
+	background-color: #9cd9b8;
+	border-radius: 7px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	padding: 13px 100px;
+	margin-top: 30px;
+	text-decoration: none;
+	border: none;
+	width: 400px;
+	text-align: center;
+	display: block;
+  	max-width: 300px;
+  	margin: auto;
+}
+
+.container1 {
+	position: center;
+	margin-top: 150px;
+	background: white;
+	border-radius: 7px;
+	padding: 13px 100px;
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	font-size: 10px;
+	text-align: left;
+}
+.container {
+	position: center;
+	margin-top: 20px;
+	background: white;
+	border-radius: 7px;
+	padding: 13px 100px;
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	font-size: 10px;
+	text-align: left;
+	
+}
+
+p {
+	font-size: 10;
+	position: center;
+	color: black;
+}
+
+h5 {
+	line-height: 3;
+	margin-top: 300px;
+	text-align: center;
+	font-weight: 1;
+	color: white;
+}
