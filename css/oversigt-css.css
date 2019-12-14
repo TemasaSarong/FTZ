@@ -114,7 +114,7 @@ nav {
 .grid-item {
 		background-color: #FAF6F5;
 		border: 1px solid #9CD9B8;
-		padding: 18px;
+		padding: 10%;
 		text-align: center;
 }
 
@@ -197,17 +197,17 @@ footer {
 	body{
 		background-image: linear-gradient(red, #3385e8); }	
 	.top {
-		height: 450px;
+		height: 420px;
 	}
 	.slideBox {
 		padding-left: 55%;
 	}
 	.slideText {		
-		padding-top: 400px;
+		padding-top: 380px;
 	}
 	.grid-item {
-		padding-top: 40px;
-		padding-bottom: 40px;
+		padding-top: 15%;
+		padding-bottom: 15%;
 	}
 }
 
@@ -224,8 +224,8 @@ footer {
 		padding-top: 550px;
 	}
 	.grid-item {
-		padding-top: 80px;
-		padding-bottom: 80px;
+		padding-top: 12%;
+		padding-bottom: 12%;
 	}
 }
 
@@ -245,7 +245,7 @@ footer {
 		padding-top: 250px;
 	}
 	.grid-item {
-		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-top: 4%;
+		padding-bottom: 4%;
 	}
 }
