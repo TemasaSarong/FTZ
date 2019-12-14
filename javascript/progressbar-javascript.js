@@ -1,4 +1,7 @@
+<script>
 var i = 0;
+    setTimeout(function(){ window.location.href = "oversigt.html"; }, 1000);
+    
 function move() {
   if (i == 0) {
     i = 1;
@@ -12,8 +15,10 @@ function move() {
       } else {
         width++;
         elem.style.width = width + "%";
-        elem.innerHTML = width + "%";
+        elem.innerHTML = width  + "%";
       }
     }
   }
 }
+    
+</script>

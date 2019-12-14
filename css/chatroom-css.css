@@ -2,170 +2,155 @@
 /* CSS Document */
 
 html {
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #EBEBEB;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EBEBEB;
 }	
 
 .container{
-	max-width: 500px;
-	
+    max-width: 500px;
 }
 
 nav {
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 12%;
-  text-align: center;		
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 12%;
+    text-align: center;		
 }
 
 .menu {
-  /*display: flex;
-  flex-direction: column;*/
-  justify-content: center;
- padding-top: 3.5vh;
-  margin-bottom: 2vh;
-	height: 8vh;
-	width: 100vw;
-	background-color: #002f67;
+    justify-content: center;
+    padding-top: 3.5vh;
+    margin-bottom: 2vh;
+    height: 8vh;
+    width: 100vw;
+    background-color: #002f67;
 }
 
 .menu h2 {
-  color: #9CD9B8;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 0.5;
-  margin-top: auto;
-  margin-bottom: 10px;
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%, -50%);
+    color: #9CD9B8;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 0.5;
+    margin-top: auto;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .menu h3 {
-  color: #EBEBEB;
-  font-size: 10px;
-  font-weight: 400;
-  text-transform: uppercase;
-  line-height: 1;
-  margin-top: 20px;;
-  margin-bottom: 10px;
-  position: absolute;
-	left: 50%;
-	transform: translate(-50%, -50%);
+    color: #EBEBEB;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-top: 20px;;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .menu img{
-	align-content: center;
-	margin-right: 5px;	
+    align-content: center;
+    margin-right: 5px;	
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; 
 }
 
 body section .top {
-  background-color: #EBEBEB;
-  height: 5%;
-	   
+    background-color: #EBEBEB;
+    height: 5%;
 }
 
 .middle {
-  background-color: #EBEBEB;
-  height: 30vh;
-	width: 100vw;
-
-	   
+    background-color: #EBEBEB;
+    height: 30vh;
+    width: 100vw;
 }
 
 
 ol, ul{
-  list-style: none;
+    list-style: none;
 }
 
 ul {
-	padding-left: 5vw;
+    padding-left: 5vw;
 }
 
 p {
-	margin: 2.2vh 0;
+    margin: 2.2vh 0;
 }
 
 .chat {
-  border: 5px solid #EBEBEB;
-  background-color: #FAF6F5;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 5px 0;
-  font-size: 15px;
-  font-weight: bold;
- 
+    border: 5px solid #EBEBEB;
+    background-color: #FAF6F5;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .chat::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
-
 
 .time {
-  float: right;
-  color: #002F67;
-  font-size: 10px;
-  border-radius: 50%;
-  margin-top: 3vh;
+    float: right;
+    color: #002F67;
+    font-size: 10px;
+    border-radius: 50%;
+    margin-top: 3vh;
 }
 
-
 footer {
-  left: 0;
-  bottom: 0px;
-  position: inherit;
-  width: 100%;
-  height: 10%;
-  text-align: center;
-	background-color: black;
+    left: 0;
+    bottom: 0px;
+    position: inherit;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    background-color: black;
 }
 
 /* Icons section - basic style */
 .box-icon {
- 	height: 90px;
-	float: right;
-	text-align: center;
-	margin-top: 65vh;
-	position: absolute;
-	left: 45%;
-	transform: translate(-50%, -50%);
-
+    height: 90px;
+    float: right;
+    text-align: center;
+    margin-top: 65vh;
+    position: absolute;
+    left: 45%;
+    transform: translate(-50%, -50%);
 }
 
 .icons{
-  align-content: center;
-	
+    align-content: center;
 }
-
 
 .icons li {
-  display: inline-block;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin: 5px;
-   
+    display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 5px;
 }
 
-
 /*Code inspired by w3schools - mediaquery_breakpoints*/
-
 /*smallest devices*/
 @media screen and (min-width: 200px)
 {
