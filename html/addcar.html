@@ -3,21 +3,36 @@
 <head>
 <meta charset="utf-8">
 <title>addcar</title>
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/addcar.css">
 </head>
 
 <body>
-	<p><h2>Tilføj bil</h2></p>
-<input type="text" placeholder="Navn" id="1">
-	<br>
-	<br>
-	<input type="text" placeholder="Nummerplade" id="test" oninput="addcars()">
-
-	<p id="info"></p>
+	<wrapper>
+		<div class="top">
+			<p><h2>TILFØJ BIL</h2></p>
+		
+		<div class="container1">
+			<p>Navn</p>
+			<input type="text" placeholder="Navn" id="1">
+			<p>Nummerplade</p>
+			<input type="text" placeholder="Nummerplade" id="test" oninput="addcars()">
+		</div>
+		<div class="container">
+			<p>Hentet fra database</p>
+			<p id="info"></p>
+		</div>
+	</div>
 	
+	<p><h5>Tilføj forsikringsoplysninger?<br>
+	Tilføj vejhjælps abonnement?</h5></p>
+
+	<button type="button">FÆRDIG</button>
+	</wrapper>
 <script>
 		function addcars(){
-var data = ["a", "b", "c"];
-	if (document.getElementById("test").innerHTML != null) {
+			var data = ["Volkswagen Golf VI","1,4 TSI 122 Highline Variant DSG 5d", "Modelår: 2012", "166.551 km, 122 hk / 200 Nm"];
+			if (document.getElementById("test").innerHTML != null) {
 					document.getElementById("info").innerHTML = data;
 					}
 					else {
@@ -25,7 +40,5 @@ var data = ["a", "b", "c"];
 					}
 					}
 </script>
-	
-	<button type="button">færdig</button>
 </body>
 </html>
