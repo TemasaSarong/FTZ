@@ -106,16 +106,18 @@ body section .top {
 	overflow: hidden;
 }
 
-ol, ul{
+.panel ul {
+	padding-left: 5vw;
 	list-style: none;
 }
 
-ul {
-	padding-left: 5vw;
+.panel p {
+	margin: 2.2vh 0;
+	color: #000000;
 }
 
-p {
-	margin: 2.2vh 0;
+.panel ul a {
+	text-decoration: none;
 }
 
 hr1{
