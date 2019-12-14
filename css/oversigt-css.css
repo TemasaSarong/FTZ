@@ -102,7 +102,6 @@ nav {
 		display: grid;
 		grid-template-rows: auto auto auto;
 		padding: 0px;
-		
 }
 
 .grid-container {
@@ -166,13 +165,13 @@ footer {
    	body{
 		background-image: linear-gradient(black, #3385e8); }
 	.top {
-		height: 370px;
+		height: 260px;
 	}
 	.slideBox {
-		padding-left: 15%;
+		padding-left: 45%;
 	}
 	.slideText {		
-		padding-top: 320px;
+		padding-top: 220px;
 	}
 }
 
@@ -182,13 +181,13 @@ footer {
    	body{
 		background-image: linear-gradient(#002f67, #3385e8); }
 	.top {
-		height: 350px;
+		height: 320px;
 	}
 	.slideBox {
-		padding-left: 45%;
+		padding-left: 50%;
 	}
 	.slideText {		
-		padding-top: 300px;
+		padding-top: 270px;
 	}
 }
 
@@ -198,13 +197,17 @@ footer {
 	body{
 		background-image: linear-gradient(red, #3385e8); }	
 	.top {
-		height: 370px;
+		height: 450px;
 	}
 	.slideBox {
 		padding-left: 55%;
 	}
 	.slideText {		
-		padding-top: 320px;
+		padding-top: 400px;
+	}
+	.grid-item {
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 }
 
@@ -215,23 +218,34 @@ footer {
 	body{
 		background-image: linear-gradient(yellow, #3385e8);	}
 	.top {
-		height: 400px;
+		height: 600px;
 	}
 	.slideText {		
-		padding-top: 350px;
+		padding-top: 550px;
+	}
+	.grid-item {
+		padding-top: 80px;
+		padding-bottom: 80px;
 	}
 }
 
 /*X-Large devices - fullscreen*/
 
-@media screen and (min-width: 2000px)
+@media screen and (min-width: 1200px)
 {
 	body{
 		background-image: linear-gradient(green, #3385e8);	}
 	.top {
-		height: 400px;
+		height: 295px;
+	}
+	.slideBox {
+		padding-left: 75%;
 	}
 	.slideText {		
-		padding-top: 350px;
+		padding-top: 250px;
+	}
+	.grid-item {
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 }
