@@ -8,14 +8,13 @@
 }
 
 #myBar {
-  width: 10%;
-  height: 30px;
-  background-color: #9cd9b8;
-  text-align: center;
-  line-height: 30px;
-  color: whrite;
-  border-radius: 5px;
-  font-size: 10px
-    
+    width: 10%;
+    height: 30px;
+    background-color: #9cd9b8;
+    text-align: center;
+    line-height: 30px;
+    color: whrite;
+    border-radius: 5px;
+    font-size: 10px
 }
 
