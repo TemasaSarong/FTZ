@@ -165,7 +165,15 @@ footer {
 {
    	body{
 		background-image: linear-gradient(black, #3385e8); }
-
+	.top {
+		height: 370px;
+	}
+	.slideBox {
+		padding-left: 15%;
+	}
+	.slideText {		
+		padding-top: 320px;
+	}
 }
 
 /*small devices - this is our preferable size*/
@@ -173,6 +181,15 @@ footer {
 {
    	body{
 		background-image: linear-gradient(#002f67, #3385e8); }
+	.top {
+		height: 350px;
+	}
+	.slideBox {
+		padding-left: 45%;
+	}
+	.slideText {		
+		padding-top: 300px;
+	}
 }
 
 /*medium devices*/
@@ -180,7 +197,15 @@ footer {
 {
 	body{
 		background-image: linear-gradient(red, #3385e8); }	
-	
+	.top {
+		height: 370px;
+	}
+	.slideBox {
+		padding-left: 55%;
+	}
+	.slideText {		
+		padding-top: 320px;
+	}
 }
 
 /*Large devices - ipad pro*/
@@ -189,7 +214,12 @@ footer {
 {
 	body{
 		background-image: linear-gradient(yellow, #3385e8);	}
-	
+	.top {
+		height: 400px;
+	}
+	.slideText {		
+		padding-top: 350px;
+	}
 }
 
 /*X-Large devices - fullscreen*/
@@ -198,5 +228,10 @@ footer {
 {
 	body{
 		background-image: linear-gradient(green, #3385e8);	}
-	
+	.top {
+		height: 400px;
+	}
+	.slideText {		
+		padding-top: 350px;
+	}
 }
