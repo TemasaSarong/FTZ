@@ -2,7 +2,6 @@
 /* CSS Document */
 
 body {
-	position: center;
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	background: rgb(2,0,36);
@@ -21,12 +20,10 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-weight: 1;
 	text-align: center;
 }
 
 button {
-	position: center;
 	background: #9cd9b8;
 	background-color: #9cd9b8;
 	border-radius: 7px;
@@ -45,7 +42,6 @@ button {
 }
 
 .container1 {
-	position: center;
 	margin-top: 150px;
 	background: white;
 	border-radius: 7px;
@@ -57,7 +53,6 @@ button {
 	text-align: left;
 }
 .container {
-	position: center;
 	margin-top: 20px;
 	background: white;
 	border-radius: 7px;
@@ -71,8 +66,7 @@ button {
 }
 
 p {
-	font-size: 10;
-	position: center;
+	font-size: 10px;
 	color: black;
 }
 
@@ -80,7 +74,6 @@ h5 {
 	line-height: 3;
 	margin-top: 300px;
 	text-align: center;
-	font-weight: 1;
 	color: white;
 }
 
