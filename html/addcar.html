@@ -15,8 +15,9 @@
 			<div class="container1">
 				<p>Navn</p>
 				<input type="text" placeholder="Navn" id="1">
-				<p>Nummerplade</p>
-				<input type="text" placeholder="Nummerplade" id="test" oninput="addcars()">
+			  <p>Nummerplade</p>
+				<input type="text" placeholder="Nummerplade" maxlength="8" id="test" onkeyup="addcars()">
+				<h4 id="error"></h4>
 			</div>
 			<div class="container2">
 				<p>Hentet fra database</p>
