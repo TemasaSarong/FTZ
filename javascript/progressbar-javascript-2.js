@@ -1,5 +1,5 @@
 var i = 0;
-    setTimeout(function(){ window.location.href = "oversigt.html"; }, 1000);
+    setTimeout(function(){ window.location.href = "livechat.html"; }, 1000);
     
 function move() {
   if (i == 0) {
