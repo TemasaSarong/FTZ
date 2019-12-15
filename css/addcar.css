@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+html {
+	height: 100%;
+}
+
 body {
 	margin: 0;
   	padding: 0;
@@ -11,28 +15,34 @@ body {
 	left: 0;
    	top: 0;
 	background-image: url("../billeder/dashboard.jpg");
-	height: 250px;
+	height: 260px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
 }
 
+.flexbox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 button {
 	background: #9cd9b8;
 	background-color: #9cd9b8;
 	border-radius: 7px;
-	color: white;
+	color: #FFFFFF;
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
-	padding: 13px 100px;
+	padding: 13px 80px;
 	margin-top: 30px;
+	margin-bottom: 10px;
 	text-decoration: none;
 	border: none;
-	width: 400px;
+	width: 250px;
 	text-align: center;
 	display: block;
-  	max-width: 300px;
   	margin: auto;
 }
 
@@ -44,7 +54,7 @@ button {
 	border-radius: 7px;
 	padding: 13px 0px;
 	width: 300px;
-	height: 130px;
+	height: 120px;
 	display: inline-block;
 	font-size: 10px;
 	text-align: center;
@@ -57,7 +67,7 @@ button {
 	border-radius: 7px;
 	padding: 13px 0px;
 	width: 300px;
-	height: 130px;
+	height: 120px;
 	display: inline-block;
 	font-size: 10px;
 	text-align: center;	
@@ -84,8 +94,8 @@ h2 {
 
 h5 {
 	line-height: 2;
-	margin-top: 250px;
-	margin-left: 100px;
+	margin-top: 220px;
+	margin-left: 40%;
 	text-align: left;
 	color: #FFFFFF;
 }
@@ -104,7 +114,13 @@ a {
 {
    	body{
 	  background-image: linear-gradient(black, #3385e8); }
-
+	.container1 {
+		margin-top: 90px;		
+		width: 250px;
+	} 
+	.container2 {		
+		width: 250px;
+	}
 }
 
 /*small devices - this is our preferable size*/
@@ -112,7 +128,20 @@ a {
 {
    	body{
 	  background-image: linear-gradient(#002f67, #3385E8); }
-	
+	.container1 {	
+		margin-top: 120px;
+		width: 300px;
+	} 
+	.container2 {		
+		width: 300px;
+	}
+	h5 {
+		margin-left: 30%;	
+		margin-top: 260px;	
+	}
+	button {
+		width: 270px;
+	}
 }
 
 /*medium devices*/
@@ -120,7 +149,25 @@ a {
 {
 	body{
 	  background-image: linear-gradient(red, #3385E8); }
-	
+	.top {
+		height: 300px;
+	}
+	.container1 {	
+		margin-top: 160px;
+		width: 400px;
+		height: 150px;
+	} 
+	.container2 {		
+		width: 400px;
+		height: 150px;
+	}
+	h5 {
+		margin-left: 40%;	
+		margin-top: 300px;	
+	}
+	button {
+		width: 300px;
+	}
 }
 
 /*Large devices - ipad pro*/
@@ -129,14 +176,39 @@ a {
 {
 	body{
 	  background-image: linear-gradient(yellow, #3385E8);	}
-	
+	.top {
+		height: 320px;
+	}
+	.container1 {	
+		margin-top: 250px;
+		width: 500px;
+	} 
+	.container2 {		
+		width: 500px;
+	}
+	h5 {
+		margin-left: 40%;	
+		margin-top: 400px;	
+	}
+	button {
+		width: 300px;
+	}
 }
 
 /*X-Large devices - fullscreen*/
 
-@media screen and (min-width: 2000px)
+@media screen and (min-width: 1200px)
 {
 	body{
 	  background-image: linear-gradient(green, #3385E8);	}
-	
+	.container1 {	
+		margin-top: 210px;
+		width: 500px;
+	} 
+	.container2 {		
+		width: 500px;
+	}
+	button {
+		width: 400px;
+	}
 }
