@@ -8,11 +8,11 @@ html {
 body {
 	    margin: 0;
   		padding: 0;
+		background-image: linear-gradient(#002f67, #3385e8);
 }
 
 .container {
 		font-family: 'Raleway', sans-serif;
-		background-color: #002f67;
 }
 
 nav {
@@ -162,8 +162,6 @@ footer {
 /*smallest devices*/
 @media screen and (min-width: 200px)
 {
-   	body{
-		background-image: linear-gradient(black, #3385e8); }
 	.top {
 		height: 260px;
 	}
@@ -178,8 +176,6 @@ footer {
 /*small devices - this is our preferable size*/
 @media screen and (min-width: 400px)
 {
-   	body{
-		background-image: linear-gradient(#002f67, #3385e8); }
 	.top {
 		height: 320px;
 	}
@@ -194,8 +190,6 @@ footer {
 /*medium devices*/
 @media screen and (min-width: 600px)
 {
-	body{
-		background-image: linear-gradient(red, #3385e8); }	
 	.top {
 		height: 420px;
 	}
@@ -215,8 +209,6 @@ footer {
 
 @media screen and (min-width: 800px)
 {
-	body{
-		background-image: linear-gradient(yellow, #3385e8);	}
 	.top {
 		height: 600px;
 	}
@@ -233,8 +225,6 @@ footer {
 
 @media screen and (min-width: 1200px)
 {
-	body{
-		background-image: linear-gradient(green, #3385e8);	}
 	.top {
 		height: 295px;
 	}
