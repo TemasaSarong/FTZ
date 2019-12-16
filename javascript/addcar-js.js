@@ -1,7 +1,7 @@
 // JavaScript Document
 function addcars(){
 	
-	var data = ["Volkswagen Golf VI","1,4 TSI 122 Highline Variant DSG 5d", "Modelår: 2012", "166.551 km, 122 hk / 200 Nm"];
+	var data = ["Volkswagen Golf VI"," 1,4 TSI 122 Highline Variant DSG 5d", " Modelår: 2012", " 166.551 km, 122 hk / 200 Nm"];
 	var string_value = document.getElementById('Nummerplade').value;
 	
 		if (string_value.length <= 4) {
