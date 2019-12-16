@@ -224,7 +224,7 @@ section.color.black {background-color:#000000;}
 /* Button - basic style */
 .button {
 	box-shadow: inset 0px 1px 0px 0px #ffffff;
-    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background: linear-gradient(to bottom, #9CD9B8 5%, #9CD9B8 100%);
 	border-radius: 2px;
 	border: 1px solid #dcdcdc;
 	display: inline-block;
@@ -242,13 +242,13 @@ section.color.black {background-color:#000000;}
 }
 
 .action-button {
-	border: 2px solid #3385E8;
+	border: 2px solid #9CD9B8;
 	width: 20%;
-	background: #3385E8;
+	background: #9CD9B8;
 	font-size: 14px;
 	font-style:normal;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #FFFFFF;
 	border-radius: 3px;
 	cursor: pointer;
 	padding: 10px 5px;
