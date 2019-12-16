@@ -63,7 +63,7 @@ nav {
 		text-transform: uppercase;
 		line-height: 1;
 		margin-top: 0;
-		margin-bottom: 12px;
+		margin-bottom: 14px;
 }
 
 .section {
@@ -154,7 +154,7 @@ footer {
 
 .icons i {
 		color: #FAF6F5;
-		padding: 15px;
+		padding: 10px 20px;
 }
 
 /*Code inspired by w3schools - mediaquery_breakpoints*/

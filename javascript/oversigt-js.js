@@ -13,11 +13,4 @@ setInterval(function() {
 	slides[current].style.opacity = 1;
 }, 2000);
 
-/* kode lånt fra Tiifanys JavaScript for at forklare kontrolstruktur:
 
-if
-
-else
-	
-// husk at forklar hvad der hentes med eventListener (slideText)
-	*/
