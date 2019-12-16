@@ -97,7 +97,7 @@ body .landingSection img{
 	margin-left: 5px;
 }
 
-/* Branding-Logos */
+/* Branding-Logos, this code whas inspired by="codepen.io/sora-inu/pen/VKaKKz" */
 .card{
 	display:inline-block;
 	background-color:#FFFFFF;
@@ -148,7 +148,7 @@ body .landingSection img{
 	width:330px
 }
 
-/* Color section - basic style */
+/* Color section - basic style this code was inspired by="codepen.io/devi8/pen/lvIeh" */
 section.container header h1 {
 	font-weight: 200;
 	font-size: 3em;

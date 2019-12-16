@@ -167,6 +167,21 @@ footer {
 {
    	body{
 	  background-color: #ebebeb; }
+	
+	.middle {
+	background-color: #EBEBEB;
+	height: 30vh;
+	width: 100vw;
+}
+	footer {
+	left: 0;
+	bottom: 0px;
+	position: inherit;
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	background-color: black;
+}
 
 }
 
@@ -176,13 +191,63 @@ footer {
    	body{
 	  background-image: linear-gradient(#002f67, #3385E8); }
 	
+	.middle {
+	background-color: #EBEBEB;
+	height: 87vh;
+	width: 100vw;
+	
+}
+	footer {
+	left: 0;
+	bottom: 0px;
+	position: inherit;
+	width: 1000%;
+	height: 10%;
+	text-align: center;
+	background-color: black;
+}
+	.box-icon {
+	height: 90px;
+	float: right;
+	text-align: center;
+	margin-top: -9vh;
+	position: absolute;
+	left: 45%;
+	transform: translate(-50%, -50%);
+}
+	
 }
 
 /*medium devices*/
 @media screen and (min-width: 600px)
 {
 	body{
-	  background-image: linear-gradient(red, #3385E8); }
+	  background-image: linear-gradient(#002f67, #3385E8); }
+	
+	.middle {
+	background-color: #EBEBEB;
+	height: 90vh;
+	width: 100vw;
+	
+}
+	footer {
+	left: 0;
+	bottom: 0px;
+	position: inherit;
+	width: 100%;
+	height: 60%;
+	text-align: center;
+	background-color: black;
+}
+	.box-icon {
+	height: 1000px;
+	float: right;
+	text-align: center;
+	margin-top: 47vh;
+	position: absolute;
+	left: 45%;
+	transform: translate(-50%, -50%);
+}
 	
 }
 
@@ -191,7 +256,32 @@ footer {
 @media screen and (min-width: 800px)
 {
 	body{
-	  background-image: linear-gradient(yellow, #3385E8);	}
+	  background-image: linear-gradient(#002f67, #3385E8);	}
+	
+	.middle {
+	background-color: #EBEBEB;
+	height: 120vh;
+	width: 100vw;
+	
+}
+	footer {
+	left: 0;
+	bottom: 0px;
+	position: inherit;
+	width: 100%;
+	height: 90%;
+	text-align: center;
+	background-color: black;
+}
+	.box-icon {
+	height: 1500px;
+	float: right;
+	text-align: center;
+	margin-top: 55vh;
+	position: absolute;
+	left: 45%;
+	transform: translate(-50%, -50%);
+}
 	
 }
 
@@ -200,6 +290,22 @@ footer {
 @media screen and (min-width: 2000px)
 {
 	body{
-	  background-image: linear-gradient(green, #3385E8);	}
+	  background-image: linear-gradient(#002f67, #3385E8);	}
+	
+	.middle {
+	background-color: #EBEBEB;
+	height: 150vh;
+	width: 100vw;
+	
+}
+	footer {
+	left: 0;
+	bottom: 0px;
+	position: inherit;
+	width: 100%;
+	height: 120%;
+	text-align: center;
+	background-color: black;
+}
 	
 }
