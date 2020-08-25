@@ -2,7 +2,7 @@
 //https://stackoverflow.com/questions/36184252/javascript-only-li-text-slider
 
 
-var current = 0,
+var current = 4,
 	slides = document.getElementsByClassName("slideText");
 
 setInterval(function() {
